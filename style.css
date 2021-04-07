@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap");
+html, body, main {
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 768px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: url("./img/background.png") no-repeat, #812347;
+  background-size: 30%;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  main {
+    background-size: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    background-size: 50%;
+  }
+}
+
+main h1 {
+  font-weight: 600;
+}
+
+main .titulo {
+  text-transform: uppercase;
+}
+
+main .img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+main ul {
+  padding: 0;
+  margin: 0;
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main ul li {
+  margin: 5px 12.5px;
+  font-size: 18px;
+}
+
+main ul li:first-child {
+  list-style: none;
+}
+
+main .localizacao h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 7.25px;
+}
+
+main .localizacao p {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
